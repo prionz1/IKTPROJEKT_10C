@@ -23,7 +23,7 @@
 
     <h2>Gödöllői Királyi Váró</h2> <img src="varo.jpg" alt="Király váró" class="kepek">
 
-    <p>A Gödöllői HÉV végállomás mellett található Gödöllő vasútállomása is, ahol egy az 1882-es eredeti tervek alapján felújított monarchia-beli műemlék áll: a Királyi Váró. Nemcsak megjelenésében királyi az épület, feladata is az volt, hogy az uralkodópár - Ferenc József császár és Erzsébet királyné - kényelmét szolgálja, akik Gödöllőre utazva érkeztek ide a fővárosból. Királyi Váró Budapest mindkét nagy pályaudvarán, a Keleti- és Nyugati pályaudvarokon is épült, de egyik sem önálló épület, mint a neoreneszánsz stílust elegánsan képviselő gödöllői. Ferenc József zöld selyemtapétás várótermét és Erzsébet királyné halványsárga selyemmel fedett várószobáját a bordó kárpitú Hercegi Váró köti össze. Az egykori pompás berendezés megjelenik a Gödöllői Városi Múzeum fotókiállításán, míg a királyi vonatokról készült korabeli felvételek és makettek a <a href="https://www.mmkm.hu/">Magyar Műszaki és Közlekedési Múzeum</a> közlekedéstörténeti kiállításán láthatók. Az épület oldalszárnyában kapott helyet a speciális édességeket is kínáló Monarchia Kávézó, az ide érkező turisták az információs irodában kapnak tájékoztatást.</p>
+    <p>A Gödöllői HÉV végállomás mellett találgtgttgható Gödöllő vasútállomása is, ahol egy az 1882-es eredeti tervek alapján felújított monarchia-beli műemlék áll: a Királyi Váró. Nemcsak megjelenésében királyi az épület, feladata is az volt, hogy az uralkodópár - Ferenc József császár és Erzsébet királyné - kényelmét szolgálja, akik Gödöllőre utazva érkeztek ide a fővárosból. Királyi Váró Budapest mindkét nagy pályaudvarán, a Keleti- és Nyugati pályaudvarokon is épült, de egyik sem önálló épület, mint a neoreneszánsz stílust elegánsan képviselő gödöllői. Ferenc József zöld selyemtapétás várótermét és Erzsébet királyné halványsárga selyemmel fedett várószobáját a bordó kárpitú Hercegi Váró köti össze. Az egykori pompás berendezés megjelenik a Gödöllői Városi Múzeum fotókiállításán, míg a királyi vonatokról készült korabeli felvételek és makettek a <a href="https://www.mmkm.hu/">Magyar Műszaki és Közlekedési Múzeum</a> közlekedéstörténeti kiállításán láthatók. Az épület oldalszárnyában kapott helyet a speciális édességeket is kínáló Monarchia Kávézó, az ide érkező turisták az információs irodában kapnak tájékoztatást.</p>
 
     <h2>"Csak angolosan"</h2>
 
@@ -31,8 +31,8 @@
 
     <div id="urlap"> 
         <h3>Menetidő számítás</h3>
-        <p>
-            <select>
+        <form action="urlap">
+            <select id="select1">
                 <option value="0">Gödöllő</option>
                 <option value="2">Gödöllő, Palotakert</option>
                 <option value="4">Gödöllő, Szabadság tér</option>
@@ -54,9 +54,7 @@
                 <option value="45">Rákosfalva</option>
                 <option value="48">Örs vezér tere</option>
                </select>
-        </p>
-        <p>
-            <select>
+                <select id="select2">
                 <option value="0">Gödöllő</option>
                 <option value="2">Gödöllő, Palotakert</option>
                 <option value="4">Gödöllő, Szabadság tér</option>
@@ -78,7 +76,10 @@
                 <option value="45">Rákosfalva</option>
                 <option value="48">Örs vezér tere</option>
                </select>
-        </p>
+
+            <button type="button"></button>
+
+        </form>
     </div>
 
 </body>
