@@ -7,3 +7,15 @@ while number <= 20 :
         print(number,'páratlan' )
         number += 1
 #---------------------------------
+
+list = []
+szam = int(input('Adj meg egy számot '))
+szam.append(list)
+szam = 0
+
+for a in list:
+    szam += 1
+    avg = szam / len(list)
+        
+print('A szám átlaga ',szam)
+#----------------------------------
